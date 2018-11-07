@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_24dp"
+        android:orderInCategory="100"
+        android:title="@string/abc_search_hint"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/english"
+        android:title="English"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/indonesia"
+        android:title="Indonesia"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/favorite"
+        android:title="Favorite"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        app:showAsAction="always"/>
+
+</menu>
